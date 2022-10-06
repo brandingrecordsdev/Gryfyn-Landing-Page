@@ -1,14 +1,15 @@
 {
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
   "/api/hello": "pages/api/hello.js",
+  "/_error": "pages/_error.js",
+  "/_app": "pages/_app.js",
   "/api/subscribe": "pages/api/subscribe.js",
-  "/api/testgetapi": "pages/api/testgetapi.js",
   "/api/testpostapi": "pages/api/testpostapi.js",
-  "/cookie-policy": "pages/cookie-policy.js",
-  "/faq": "pages/faq.js",
-  "/": "pages/index.js",
-  "/privacy-policy": "pages/privacy-policy.js",
-  "/terms-and-conditions": "pages/terms-and-conditions.js",
-  "/_document": "pages/_document.js"
+  "/api/testgetapi": "pages/api/testgetapi.js",
+  "/cookie-policy": "pages/cookie-policy.html",
+  "/faq": "pages/faq.html",
+  "/privacy-policy": "pages/privacy-policy.html",
+  "/": "pages/index.html",
+  "/terms-and-conditions": "pages/terms-and-conditions.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
 }

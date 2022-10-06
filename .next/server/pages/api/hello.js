@@ -1,13 +1,23 @@
+"use strict";
 (() => {
 var exports = {};
 exports.id = 453;
 exports.ids = [453];
 exports.modules = {
 
-/***/ 117:
-/***/ (() => {
+/***/ 8117:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed (from ./node_modules/next/dist/build/babel/loader/index.js):\nError: .plugins[1][1] must be an object, false, or undefined\n    at assertPluginItem (/Users/adrianchan/Documents/GitHub/gryfyn.github.io/node_modules/next/dist/compiled/babel/bundle.js:1:69060)\n    at /Users/adrianchan/Documents/GitHub/gryfyn.github.io/node_modules/next/dist/compiled/babel/bundle.js:1:68662\n    at Array.forEach (<anonymous>)\n    at assertPluginList (/Users/adrianchan/Documents/GitHub/gryfyn.github.io/node_modules/next/dist/compiled/babel/bundle.js:1:68646)\n    at /Users/adrianchan/Documents/GitHub/gryfyn.github.io/node_modules/next/dist/compiled/babel/bundle.js:1:74287\n    at Array.forEach (<anonymous>)\n    at validateNested (/Users/adrianchan/Documents/GitHub/gryfyn.github.io/node_modules/next/dist/compiled/babel/bundle.js:1:73621)\n    at validate (/Users/adrianchan/Documents/GitHub/gryfyn.github.io/node_modules/next/dist/compiled/babel/bundle.js:1:73485)\n    at loadPrivatePartialConfig (/Users/adrianchan/Documents/GitHub/gryfyn.github.io/node_modules/next/dist/compiled/babel/bundle.js:1:57385)\n    at loadPrivatePartialConfig.next (<anonymous>)");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ handler)
+/* harmony export */ });
+// Next.js API route support: https://nextjs.org/docs/api-routes/introduction
+function handler(req, res) {
+  res.status(200).json({
+    name: 'John Doe'
+  });
+}
 
 /***/ })
 
@@ -18,7 +28,7 @@ throw new Error("Module build failed (from ./node_modules/next/dist/build/babel/
 var __webpack_require__ = require("../../webpack-api-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(117));
+var __webpack_exports__ = (__webpack_exec__(8117));
 module.exports = __webpack_exports__;
 
 })();

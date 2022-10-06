@@ -1,13 +1,22 @@
+"use strict";
 (() => {
 var exports = {};
 exports.id = 685;
 exports.ids = [685];
 exports.modules = {
 
-/***/ 285:
-/***/ (() => {
+/***/ 2285:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed (from ./node_modules/next/dist/build/babel/loader/index.js):\nError: .plugins[1][1] must be an object, false, or undefined\n    at assertPluginItem (/Users/adrianchan/Documents/GitHub/gryfyn.github.io/node_modules/next/dist/compiled/babel/bundle.js:1:69060)\n    at /Users/adrianchan/Documents/GitHub/gryfyn.github.io/node_modules/next/dist/compiled/babel/bundle.js:1:68662\n    at Array.forEach (<anonymous>)\n    at assertPluginList (/Users/adrianchan/Documents/GitHub/gryfyn.github.io/node_modules/next/dist/compiled/babel/bundle.js:1:68646)\n    at /Users/adrianchan/Documents/GitHub/gryfyn.github.io/node_modules/next/dist/compiled/babel/bundle.js:1:74287\n    at Array.forEach (<anonymous>)\n    at validateNested (/Users/adrianchan/Documents/GitHub/gryfyn.github.io/node_modules/next/dist/compiled/babel/bundle.js:1:73621)\n    at validate (/Users/adrianchan/Documents/GitHub/gryfyn.github.io/node_modules/next/dist/compiled/babel/bundle.js:1:73485)\n    at loadPrivatePartialConfig (/Users/adrianchan/Documents/GitHub/gryfyn.github.io/node_modules/next/dist/compiled/babel/bundle.js:1:57385)\n    at loadPrivatePartialConfig.next (<anonymous>)");
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* binding */ TestPostApi)
+/* harmony export */ });
+async function TestPostApi(req, res) {
+  res.status(200).json({
+    message: 'Post request sucess'
+  });
+}
 
 /***/ })
 
@@ -18,7 +27,7 @@ throw new Error("Module build failed (from ./node_modules/next/dist/build/babel/
 var __webpack_require__ = require("../../webpack-api-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__(285));
+var __webpack_exports__ = (__webpack_exec__(2285));
 module.exports = __webpack_exports__;
 
 })();
