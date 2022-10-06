@@ -1,5 +1,14 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/api/hello": "pages/api/hello.js",
+  "/api/subscribe": "pages/api/subscribe.js",
+  "/api/testgetapi": "pages/api/testgetapi.js",
+  "/api/testpostapi": "pages/api/testpostapi.js",
+  "/cookie-policy": "pages/cookie-policy.js",
+  "/faq": "pages/faq.js",
+  "/": "pages/index.js",
+  "/privacy-policy": "pages/privacy-policy.js",
+  "/terms-and-conditions": "pages/terms-and-conditions.js",
   "/_document": "pages/_document.js"
 }
