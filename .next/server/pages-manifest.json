@@ -1,10 +1,10 @@
 {
-  "/api/hello": "pages/api/hello.js",
   "/_error": "pages/_error.js",
   "/_app": "pages/_app.js",
+  "/api/hello": "pages/api/hello.js",
   "/api/subscribe": "pages/api/subscribe.js",
-  "/api/testpostapi": "pages/api/testpostapi.js",
   "/api/testgetapi": "pages/api/testgetapi.js",
+  "/api/testpostapi": "pages/api/testpostapi.js",
   "/cookie-policy": "pages/cookie-policy.html",
   "/faq": "pages/faq.html",
   "/privacy-policy": "pages/privacy-policy.html",
